@@ -1,28 +1,30 @@
 # Data Cleaning and Exploratory Data Analysis on Titanic Dataset
 
-## 📌 Overview
+## About the Project
 
-This project demonstrates the process of **Data Cleaning** and **Exploratory Data Analysis (EDA)** using the Titanic dataset. The objective is to preprocess the dataset by handling missing values and then explore the relationships between different variables through statistical summaries and visualizations.
+This project focuses on **Data Cleaning** and **Exploratory Data Analysis (EDA)** using the Titanic dataset. Before performing any analysis or building machine learning models, it is important to clean the dataset and understand its structure. This project explores the data through statistical summaries and visualizations to identify trends, relationships, and patterns among different passenger attributes.
 
-Various plots are used to understand passenger demographics, survival patterns, fare distribution, and correlations among numerical features. The project provides meaningful insights into the characteristics of Titanic passengers and the factors that influenced survival.
-
----
-
-## 📊 Objective
-
-- Perform data cleaning by handling missing values.
-- Explore the structure and characteristics of the dataset.
-- Analyze the distribution of numerical and categorical variables.
-- Identify relationships between different features.
-- Visualize patterns and trends using informative plots.
+The analysis provides insights into factors such as passenger age, gender, ticket fare, passenger class, and survival.
 
 ---
 
-## 📁 Dataset
+## Project Goal
+
+The main objectives of this project are:
+
+- Clean the dataset by handling missing values.
+- Understand the structure of the dataset.
+- Explore the distribution of numerical and categorical features.
+- Identify relationships between different variables.
+- Visualize important trends using graphs and charts.
+
+---
+
+## Dataset
 
 **Dataset:** Titanic Dataset
 
-The dataset contains information about passengers aboard the RMS Titanic, including demographic details, ticket information, passenger class, fare, and survival status.
+The dataset contains demographic and travel information about passengers aboard the RMS Titanic.
 
 ### Features Used
 
@@ -37,7 +39,7 @@ The dataset contains information about passengers aboard the RMS Titanic, includ
 
 ---
 
-## 🛠 Technologies Used
+## Tools and Libraries
 
 - Python
 - Pandas
@@ -47,127 +49,86 @@ The dataset contains information about passengers aboard the RMS Titanic, includ
 
 ---
 
-## 📈 Data Cleaning
+## Data Preparation
 
-The following preprocessing steps were performed:
+Before performing the analysis, the following preprocessing steps were carried out:
 
-- Checked dataset information.
-- Identified missing values.
+- Loaded the dataset.
+- Examined the dataset structure and missing values.
 - Filled missing values in the **Age** column using the median.
 - Filled missing values in the **Embarked** column using the mode.
 - Removed the **Cabin** column due to a large number of missing values.
+- Generated statistical summaries for numerical features.
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Analysis Performed
 
-The following analyses were performed:
+The following analyses were carried out:
 
-### 1. Age Distribution
-Visualizes the distribution of passenger ages using a histogram.
-
-### 2. Gender Distribution
-Displays the number of male and female passengers.
-
-### 3. Survival Distribution
-Shows the number of passengers who survived and those who did not.
-
-### 4. Survival by Gender
-Compares survival rates between male and female passengers.
-
-### 5. Survival by Passenger Class
-Analyzes how passenger class affected survival.
-
-### 6. Fare Distribution
-Illustrates the distribution of ticket fares.
-
-### 7. Age vs Survival
-Uses a box plot to compare passenger age with survival status.
-
-### 8. Fare vs Survival
-Uses a box plot to analyze ticket fare based on survival.
-
-### 9. Correlation Heatmap
-Shows the correlation among numerical features.
-
-### 10. Pair Plot
-Displays pairwise relationships between selected numerical variables.
+- Age Distribution
+- Gender Distribution
+- Survival Distribution
+- Survival by Gender
+- Survival by Passenger Class
+- Fare Distribution
+- Age vs Survival
+- Fare vs Survival
+- Correlation Heatmap
+- Pair Plot Analysis
 
 ---
 
-## 🚀 Project Workflow
+## Visualizations
 
-1. Import required libraries.
-2. Load the Titanic dataset.
-3. Display dataset overview.
-4. Check and handle missing values.
-5. Perform data cleaning.
-6. Generate descriptive statistics.
-7. Create visualizations for data exploration.
-8. Analyze relationships between variables.
-9. Summarize key observations.
+The project includes the following visualizations:
+
+- Histogram of Passenger Age
+- Gender Distribution Plot
+- Survival Distribution Plot
+- Survival by Gender
+- Survival by Passenger Class
+- Fare Distribution Histogram
+- Age vs Survival Box Plot
+- Fare vs Survival Box Plot
+- Correlation Heatmap
+- Pair Plot of Selected Features
 
 ---
 
-## 📂 Project Structure
+## Folder Structure
 
 ```
-PRODIGY_DS_02/
+SCT_DS_02/
 │
 ├── Titanic-Dataset.csv
-├── Task02.ipynb
+├── Data_cleaning_and_EDA.ipynb
 ├── README.md
 └── output.png
 ```
 
 ---
 
-## 📸 Expected Output
+## Key Findings
 
-The project generates:
+Some important observations from the analysis include:
 
-- Dataset Overview
-- Statistical Summary
-- Missing Value Analysis
-- Age Distribution Histogram
-- Gender Distribution Plot
-- Survival Distribution Plot
-- Survival by Gender Plot
-- Survival by Passenger Class Plot
-- Fare Distribution Histogram
-- Age vs Survival Box Plot
-- Fare vs Survival Box Plot
-- Correlation Heatmap
-- Pair Plot
-- Key Observations
+- Most passengers were between **20 and 40 years** of age.
+- Male passengers were more numerous than female passengers.
+- Female passengers had a noticeably higher survival rate.
+- First-class passengers had better survival chances than passengers in lower classes.
+- Higher ticket fares were generally associated with a greater probability of survival.
+- Age showed only a weak relationship with survival compared to other features.
 
 ---
 
-## 📚 Learning Outcomes
+## Conclusion
 
-Through this project, the following concepts were explored:
-
-- Data Loading
-- Data Cleaning
-- Missing Value Handling
-- Exploratory Data Analysis (EDA)
-- Descriptive Statistics
-- Histogram Visualization
-- Count Plot Visualization
-- Box Plot Analysis
-- Correlation Analysis
-- Pairwise Relationship Analysis
-- Data Interpretation
+This project demonstrates the complete process of cleaning a dataset and performing exploratory data analysis. The visualizations and statistical analysis provide valuable insights into passenger demographics, travel characteristics, and survival patterns. The project also highlights the importance of EDA as a crucial step before developing machine learning models.
 
 ---
 
-## 📌 Conclusion
-
-This project demonstrates the complete workflow of data cleaning and exploratory data analysis using the Titanic dataset. By preprocessing the data and visualizing important relationships, meaningful insights were obtained regarding passenger demographics, fare distribution, passenger class, and survival patterns. The project highlights the importance of EDA as a fundamental step before building machine learning models.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Vijay Prakash**
 
