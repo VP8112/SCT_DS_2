@@ -104,7 +104,7 @@ SCT_DS_02/
 ├── Titanic-Dataset.csv
 ├── Data_cleaning_and_EDA.ipynb
 ├── README.md
-└── output.png
+└── output_images/
 ```
 
 ---
